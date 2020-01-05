@@ -1,0 +1,980 @@
+2019-08-13 00:16:06,919 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:16:12,905 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:29:47,395 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:38:06,621 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:44:14,012 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:44:49,121 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 00:52:09,471 ERROR 73925 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"title":{"message":"Path `title` is required.","name":"ValidatorError","properties":{"message":"Path `title` is required.","type":"required","path":"title","value":""},"kind":"required","path":"title","value":""},"property.craft":{"message":"Path `property.craft` is required.","name":"ValidatorError","properties":{"message":"Path `property.craft` is required.","type":"required","path":"property.craft","value":""},"kind":"required","path":"property.craft","value":""},"property.flavor":{"message":"Path `property.flavor` is required.","name":"ValidatorError","properties":{"message":"Path `property.flavor` is required.","type":"required","path":"property.flavor","value":""},"kind":"required","path":"property.flavor","value":""},"property.hard":{"message":"Path `property.hard` is required.","name":"ValidatorError","properties":{"message":"Path `property.hard` is required.","type":"required","path":"property.hard","value":""},"kind":"required","path":"property.hard","value":""},"property.people":{"message":"Path `property.people` is required.","name":"ValidatorError","properties":{"message":"Path `property.people` is required.","type":"required","path":"property.people","value":""},"kind":"required","path":"property.people","value":""},"classify":{"message":"Path `classify` is required.","name":"ValidatorError","properties":{"message":"Path `classify` is required.","type":"required","path":"classify","value":""},"kind":"required","path":"classify","value":""},"product_story":{"message":"Path `product_story` is required.","name":"ValidatorError","properties":{"message":"Path `product_story` is required.","type":"required","path":"product_story","value":""},"kind":"required","path":"product_story","value":""},"skill":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","name":"ValidatorError","properties":{"message":"Path `skill` (``) is shorter than the minimum allowed length (1).","type":"minlength","minlength":1,"path":"skill","value":""},"kind":"minlength","path":"skill","value":""},"parent_classify":{"message":"Path `parent_classify` is required.","name":"ValidatorError","properties":{"message":"Path `parent_classify` is required.","type":"required","path":"parent_classify"},"kind":"required","path":"parent_classify"}}
+_message: "Menu validation failed"
+message: "Menu validation failed: title: Path `title` is required., property.craft: Path `property.craft` is required., property.flavor: Path `property.flavor` is required., property.hard: Path `property.hard` is required., property.people: Path `property.people` is required., classify: Path `classify` is required., product_story: Path `product_story` is required., skill: Path `skill` (``) is shorter than the minimum allowed length (1)., parent_classify: Path `parent_classify` is required."
+name: "ValidationError"
+pid: 73925
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:15:09,536 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '_doc' of undefined
+    at commentInfo.forEach (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:184:28)
+    at Array.forEach (<anonymous>)
+    at MenuController.comment (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:181:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:15:32,693 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: menuId: Path `menuId` is required., commentText: Path `commentText` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"menuId":{"message":"Path `menuId` is required.","name":"ValidatorError","properties":{"message":"Path `menuId` is required.","type":"required","path":"menuId"},"kind":"required","path":"menuId"},"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: menuId: Path `menuId` is required., commentText: Path `commentText` is required."
+name: "ValidationError"
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:18:09,446 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '_doc' of undefined
+    at commentInfo.forEach (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:184:28)
+    at Array.forEach (<anonymous>)
+    at MenuController.comment (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:181:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:18:13,543 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '_doc' of undefined
+    at commentInfo.forEach (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:184:28)
+    at Array.forEach (<anonymous>)
+    at MenuController.comment (/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js:181:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:18:22,251 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:18:33,893 ERROR 75408 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId"},"kind":"required","path":"userId"}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75408
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:22:28,329 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: commentText: Path `commentText` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: commentText: Path `commentText` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:22:47,532 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: commentText: Path `commentText` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: commentText: Path `commentText` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:23:06,318 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", commentText: Path `commentText` is required., userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", commentText: Path `commentText` is required., userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:23:10,295 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", commentText: Path `commentText` is required., userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", commentText: Path `commentText` is required., userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:23:12,703 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:23:38,561 ERROR 75674 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75674
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:24:56,639 ERROR 75829 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75829
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:47,408 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:52,714 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:52,891 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:53,060 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:53,224 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:53,388 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:25:53,549 ERROR 75851 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75851
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:13,722 ERROR 75870 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75870
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:13,877 ERROR 75870 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75870
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:14,062 ERROR 75870 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75870
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:14,235 ERROR 75870 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75870
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:34,677 ERROR 75995 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75995
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:35,100 ERROR 75995 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75995
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:35,293 ERROR 75995 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75995
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:35,487 ERROR 75995 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75995
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 01:26:35,658 ERROR 75995 [-/127.0.0.1/-/0ms GET /] nodejs.ValidationError: Comment validation failed: userInfo: Cast to ObjectID failed for value "" at path "userInfo", userId: Path `userId` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:1111:10)
+    at model._handleIndex (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:876:14)
+    at model.$set (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:821:22)
+    at model.Document (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:124:12)
+    at model.Model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:97:12)
+    at new model (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:4672:15)
+    at toExecute.push.callback (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2954:22)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:31:39
+    at eachOfArrayLike (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:65:9)
+    at exports.default (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/eachOf.js:9:5)
+    at _parallel (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/internal/parallel.js:30:5)
+    at parallelLimit (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/async/parallel.js:88:26)
+    at utils.promiseOrCallback.cb (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/model.js:2964:5)
+    at Promise (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/utils.js:271:5)
+errors: {"userInfo":{"message":"Cast to ObjectID failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectID","value":"","path":"userInfo","reason":{"message":"Cast to ObjectId failed for value \"\" at path \"userInfo\"","name":"CastError","stringValue":"\"\"","kind":"ObjectId","value":"","path":"userInfo"}},"userId":{"message":"Path `userId` is required.","name":"ValidatorError","properties":{"message":"Path `userId` is required.","type":"required","path":"userId","value":""},"kind":"required","path":"userId","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: userInfo: Cast to ObjectID failed for value \"\" at path \"userInfo\", userId: Path `userId` is required."
+name: "ValidationError"
+pid: 75995
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 02:10:38,479 ERROR 76743 [-/127.0.0.1/-/1ms GET /] nodejs.ValidationError: Comment validation failed: commentText: Path `commentText` is required.
+    at new ValidationError (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2291:32)
+    at p.doValidate.skipSchemaValidators (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/document.js:2140:17)
+    at /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/mongoose/lib/schematype.js:1037:9
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+errors: {"commentText":{"message":"Path `commentText` is required.","name":"ValidatorError","properties":{"message":"Path `commentText` is required.","type":"required","path":"commentText","value":""},"kind":"required","path":"commentText","value":""}}
+_message: "Comment validation failed"
+message: "Comment validation failed: commentText: Path `commentText` is required."
+name: "ValidationError"
+pid: 76743
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 06:09:41,333 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1985752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 09:22:54,721 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 11553376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 09:40:29,002 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1034271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 13:42:22,402 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 14473388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 14:07:23,330 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1460922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 17:16:19,704 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 11316365ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:14:14,591 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:24:28,927 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:34:44,281 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 575350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:44:42,634 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:54:56,972 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:05:15,327 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:15:10,696 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 575360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:25:29,050 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578351ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:35:43,424 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:45:37,777 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:55:52,105 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:06:06,453 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:27:06,259 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574403ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:37:00,609 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:47:18,986 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578375ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:50:49,337 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 170341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-14 09:06:44,008 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 42474457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-14 09:34:18,918 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 494783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-15 09:26:04,004 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 85885079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-15 23:23:03,482 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 50219460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-10-15 23:24:42,114 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 5270418607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-10-16 23:17:34,668 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 85932550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+

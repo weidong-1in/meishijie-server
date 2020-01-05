@@ -1,0 +1,96 @@
+2019-08-13 01:11:18,725 INFO 75363 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:11:18,725 INFO 75363 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:11:18,725 INFO 75363 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:11:24,439 INFO 75382 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:11:24,439 INFO 75382 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:11:24,439 INFO 75382 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:11:35,066 INFO 75391 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:11:35,066 INFO 75391 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:11:35,066 INFO 75391 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:11:54,607 INFO 75408 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:11:54,607 INFO 75408 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:11:54,607 INFO 75408 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:19:48,660 INFO 75628 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:19:48,660 INFO 75628 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:19:48,660 INFO 75628 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:20:46,727 INFO 75653 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:20:46,727 INFO 75653 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:20:46,727 INFO 75653 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:20:48,626 INFO 75661 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:20:48,626 INFO 75661 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:20:48,626 INFO 75661 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:21:05,702 INFO 75674 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:21:05,702 INFO 75674 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:21:05,702 INFO 75674 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:24:55,459 INFO 75829 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:24:55,459 INFO 75829 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:24:55,459 INFO 75829 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:25:46,268 INFO 75851 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:25:46,268 INFO 75851 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:25:46,268 INFO 75851 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:26:12,769 INFO 75870 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:26:12,769 INFO 75870 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:26:12,769 INFO 75870 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:26:34,201 INFO 75994 [Timer] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 11005803ms at 2019-08-13 04:30:00.004
+2019-08-13 01:26:34,201 INFO 75994 [Timer] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 81205799ms at 2019-08-14 00:00:00.000
+2019-08-13 01:26:34,202 INFO 75994 [Timer] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 81206799ms at 2019-08-14 00:00:01.001
+2019-08-13 01:26:33,732 INFO 75995 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:26:33,733 INFO 75995 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:26:33,733 INFO 75995 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:27:01,657 INFO 76015 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:27:01,657 INFO 76015 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:27:01,658 INFO 76015 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:27:43,961 INFO 76037 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:27:43,961 INFO 76037 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:27:43,961 INFO 76037 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:28:05,040 INFO 76056 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:28:05,040 INFO 76056 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:28:05,040 INFO 76056 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:28:13,761 INFO 76074 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:28:13,761 INFO 76074 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:28:13,761 INFO 76074 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:29:16,304 INFO 76099 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:29:16,304 INFO 76099 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:29:16,304 INFO 76099 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:32:25,552 INFO 76178 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:32:25,552 INFO 76178 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:32:25,552 INFO 76178 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:32:27,074 INFO 76187 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:32:27,074 INFO 76187 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:32:27,074 INFO 76187 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:54:33,522 INFO 76722 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:54:33,522 INFO 76722 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:54:33,522 INFO 76722 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:54:35,490 INFO 76731 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:54:35,490 INFO 76731 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:54:35,490 INFO 76731 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:54:36,887 INFO 76732 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:54:36,887 INFO 76732 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:54:36,889 INFO 76732 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:54:42,527 INFO 76742 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:54:42,527 INFO 76742 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:54:42,527 INFO 76742 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 01:54:44,069 INFO 76743 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 01:54:44,071 INFO 76743 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 01:54:44,071 INFO 76743 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 02:11:13,517 INFO 76866 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 02:11:13,517 INFO 76866 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 02:11:13,517 INFO 76866 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 04:29:59,553 INFO 76866 [Job#156564179955213708274998771961] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-08-13 04:29:59,560 INFO 76866 [Job#156564179955213708274998771961] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 6ms
+2019-08-13 04:29:59,555 INFO 75994 [Timer] /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86400447ms at 2019-08-14 04:30:00.002
+2019-08-13 05:26:34,969 INFO 80083 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 05:26:34,969 INFO 80083 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 05:26:34,969 INFO 80083 [egg-schedule]: register schedule /Users/wangyun/Desktop/work/project/meishijie-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-03 23:49:53,861 INFO 19704 [egg-schedule]: register schedule C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-03 23:49:53,861 INFO 19704 [egg-schedule]: register schedule C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-03 23:49:53,861 INFO 19704 [egg-schedule]: register schedule C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-01-03 23:49:54,765 INFO 36588 [Timer] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 16805239ms at 2020-01-04 04:30:00.004
+2020-01-03 23:49:54,765 INFO 36588 [Timer] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 605235ms at 2020-01-04 00:00:00.000
+2020-01-03 23:49:54,766 INFO 36588 [Timer] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 606234ms at 2020-01-04 00:00:01.000
+2020-01-04 00:00:00,022 INFO 36588 [Timer] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399991ms at 2020-01-05 00:00:00.013
+2020-01-04 00:00:00,006 INFO 19704 [Job#15780672000011793056436986001] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-01-04 00:00:00,035 INFO 19704 [Job#15780672000011793056436986001] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 27ms
+2020-01-04 00:00:01,009 INFO 36588 [Timer] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400000ms at 2020-01-05 00:00:01.009
+2020-01-04 00:00:01,001 INFO 19704 [Job#15780672010001793066419000001] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-01-04 00:00:01,068 INFO 19704 [Job#15780672010001793066419000001] C:\Users\Robin\Desktop\vueapp\meishijie-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 66ms

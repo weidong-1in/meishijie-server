@@ -1,0 +1,405 @@
+2019-10-12 23:59:56,807 INFO 73811 [egg-logrotator] agent logger reload: got log-reload message
+2019-08-13 00:16:32,419 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/product/328X440（2）1565626592159.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891267073,"size":69003,"blocks":136,"atimeMs":1565626592159.4812,"mtimeMs":1565626592160.1877,"ctimeMs":1565626592160.1877,"birthtimeMs":1565626592159.4812,"atime":"2019-08-12T16:16:32.159Z","mtime":"2019-08-12T16:16:32.160Z","ctime":"2019-08-12T16:16:32.160Z","birthtime":"2019-08-12T16:16:32.159Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:16:44,750 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565626604739.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891267094,"size":22853,"blocks":48,"atimeMs":1565626604739.6208,"mtimeMs":1565626604740.112,"ctimeMs":1565626604740.112,"birthtimeMs":1565626604739.6208,"atime":"2019-08-12T16:16:44.740Z","mtime":"2019-08-12T16:16:44.740Z","ctime":"2019-08-12T16:16:44.740Z","birthtime":"2019-08-12T16:16:44.740Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:16:47,048 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565626607036.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891267108,"size":22853,"blocks":48,"atimeMs":1565626607036.4336,"mtimeMs":1565626607036.8691,"ctimeMs":1565626607036.8691,"birthtimeMs":1565626607036.4336,"atime":"2019-08-12T16:16:47.036Z","mtime":"2019-08-12T16:16:47.037Z","ctime":"2019-08-12T16:16:47.037Z","birthtime":"2019-08-12T16:16:47.036Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:16:50,932 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X2101565626610921.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891267121,"size":27554,"blocks":56,"atimeMs":1565626610921.2969,"mtimeMs":1565626610921.6836,"ctimeMs":1565626610921.6836,"birthtimeMs":1565626610921.2969,"atime":"2019-08-12T16:16:50.921Z","mtime":"2019-08-12T16:16:50.922Z","ctime":"2019-08-12T16:16:50.922Z","birthtime":"2019-08-12T16:16:50.921Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:45:19,148 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/product/328X4401565628319084.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268542,"size":37482,"blocks":80,"atimeMs":1565628319085.863,"mtimeMs":1565628319086.0608,"ctimeMs":1565628319086.0608,"birthtimeMs":1565628319085.863,"atime":"2019-08-12T16:45:19.086Z","mtime":"2019-08-12T16:45:19.086Z","ctime":"2019-08-12T16:45:19.086Z","birthtime":"2019-08-12T16:45:19.086Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:45:31,751 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565628331740.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268565,"size":22853,"blocks":48,"atimeMs":1565628331740.7468,"mtimeMs":1565628331741.3977,"ctimeMs":1565628331741.3977,"birthtimeMs":1565628331740.7468,"atime":"2019-08-12T16:45:31.741Z","mtime":"2019-08-12T16:45:31.741Z","ctime":"2019-08-12T16:45:31.741Z","birthtime":"2019-08-12T16:45:31.741Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:45:34,767 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X2101565628334755.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268580,"size":27554,"blocks":56,"atimeMs":1565628334755.4553,"mtimeMs":1565628334755.8877,"ctimeMs":1565628334755.8877,"birthtimeMs":1565628334755.4553,"atime":"2019-08-12T16:45:34.755Z","mtime":"2019-08-12T16:45:34.756Z","ctime":"2019-08-12T16:45:34.756Z","birthtime":"2019-08-12T16:45:34.755Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:45:38,160 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565628338149.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268594,"size":22853,"blocks":48,"atimeMs":1565628338149.6292,"mtimeMs":1565628338150.0178,"ctimeMs":1565628338150.0178,"birthtimeMs":1565628338149.6292,"atime":"2019-08-12T16:45:38.150Z","mtime":"2019-08-12T16:45:38.150Z","ctime":"2019-08-12T16:45:38.150Z","birthtime":"2019-08-12T16:45:38.150Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:53:40,843 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/product/328X4401565628820747.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268963,"size":37482,"blocks":80,"atimeMs":1565628820749.1133,"mtimeMs":1565628820749.4778,"ctimeMs":1565628820749.4778,"birthtimeMs":1565628820749.1133,"atime":"2019-08-12T16:53:40.749Z","mtime":"2019-08-12T16:53:40.749Z","ctime":"2019-08-12T16:53:40.749Z","birthtime":"2019-08-12T16:53:40.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:53:55,592 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565628835530.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268982,"size":22853,"blocks":48,"atimeMs":1565628835530.3672,"mtimeMs":1565628835530.9429,"ctimeMs":1565628835530.9429,"birthtimeMs":1565628835530.3672,"atime":"2019-08-12T16:53:55.530Z","mtime":"2019-08-12T16:53:55.531Z","ctime":"2019-08-12T16:53:55.531Z","birthtime":"2019-08-12T16:53:55.530Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:53:59,470 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X210X21565628839458.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891268996,"size":22853,"blocks":48,"atimeMs":1565628839458.978,"mtimeMs":1565628839459.691,"ctimeMs":1565628839459.691,"birthtimeMs":1565628839458.978,"atime":"2019-08-12T16:53:59.459Z","mtime":"2019-08-12T16:53:59.460Z","ctime":"2019-08-12T16:53:59.460Z","birthtime":"2019-08-12T16:53:59.459Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 00:54:02,210 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/public/upload/step/210X2101565628842198.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12891269005,"size":27554,"blocks":56,"atimeMs":1565628842198.5579,"mtimeMs":1565628842199.3672,"ctimeMs":1565628842199.3672,"birthtimeMs":1565628842198.5579,"atime":"2019-08-12T16:54:02.199Z","mtime":"2019-08-12T16:54:02.199Z","ctime":"2019-08-12T16:54:02.199Z","birthtime":"2019-08-12T16:54:02.199Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:16,767 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629876702.9966,"mtimeMs":1565629876706.3123,"ctimeMs":1565629876706.3123,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:16.703Z","mtime":"2019-08-12T17:11:16.706Z","ctime":"2019-08-12T17:11:16.706Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:16,825 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629876813.7722,"mtimeMs":1565629876814.4155,"ctimeMs":1565629876814.4155,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:16.814Z","mtime":"2019-08-12T17:11:16.814Z","ctime":"2019-08-12T17:11:16.814Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:16,876 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629876813.7722,"mtimeMs":1565629876814.4155,"ctimeMs":1565629876814.4155,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:16.814Z","mtime":"2019-08-12T17:11:16.814Z","ctime":"2019-08-12T17:11:16.814Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:17,193 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js change
+2019-08-13 01:11:16,990 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629876973.5347,"mtimeMs":1565629876978.6416,"ctimeMs":1565629876978.6416,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:16.974Z","mtime":"2019-08-12T17:11:16.979Z","ctime":"2019-08-12T17:11:16.979Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:23,416 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js change
+2019-08-13 01:11:23,062 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629883060.4768,"mtimeMs":1565629883061.147,"ctimeMs":1565629883061.147,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:23.060Z","mtime":"2019-08-12T17:11:23.061Z","ctime":"2019-08-12T17:11:23.061Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:23,113 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629883060.4768,"mtimeMs":1565629883061.147,"ctimeMs":1565629883061.147,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:23.060Z","mtime":"2019-08-12T17:11:23.061Z","ctime":"2019-08-12T17:11:23.061Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:23,163 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629883158.1262,"mtimeMs":1565629883158.6707,"ctimeMs":1565629883158.6707,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:23.158Z","mtime":"2019-08-12T17:11:23.159Z","ctime":"2019-08-12T17:11:23.159Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:23,213 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629883158.1262,"mtimeMs":1565629883158.6707,"ctimeMs":1565629883158.6707,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:23.158Z","mtime":"2019-08-12T17:11:23.159Z","ctime":"2019-08-12T17:11:23.159Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:34,021 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js change
+2019-08-13 01:11:33,644 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629893633.4348,"mtimeMs":1565629893634.0132,"ctimeMs":1565629893634.0132,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:33.633Z","mtime":"2019-08-12T17:11:33.634Z","ctime":"2019-08-12T17:11:33.634Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:33,695 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629893633.4348,"mtimeMs":1565629893634.0132,"ctimeMs":1565629893634.0132,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:33.633Z","mtime":"2019-08-12T17:11:33.634Z","ctime":"2019-08-12T17:11:33.634Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:33,816 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":530,"blocks":8,"atimeMs":1565629893802.082,"mtimeMs":1565629893804.842,"ctimeMs":1565629893804.842,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:33.802Z","mtime":"2019-08-12T17:11:33.805Z","ctime":"2019-08-12T17:11:33.805Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:52,936 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":490,"blocks":8,"atimeMs":1565629912874.5764,"mtimeMs":1565629912875.1853,"ctimeMs":1565629912875.1853,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:52.875Z","mtime":"2019-08-12T17:11:52.875Z","ctime":"2019-08-12T17:11:52.875Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:53,094 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":490,"blocks":8,"atimeMs":1565629913081.4133,"mtimeMs":1565629913083.879,"ctimeMs":1565629913083.879,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:53.081Z","mtime":"2019-08-12T17:11:53.084Z","ctime":"2019-08-12T17:11:53.084Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:53,431 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js change
+2019-08-13 01:11:53,175 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":490,"blocks":8,"atimeMs":1565629913162.8628,"mtimeMs":1565629913163.3958,"ctimeMs":1565629913163.3958,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:53.163Z","mtime":"2019-08-12T17:11:53.163Z","ctime":"2019-08-12T17:11:53.163Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:11:53,225 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/model/comment.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092308,"size":490,"blocks":8,"atimeMs":1565629913162.8628,"mtimeMs":1565629913163.3958,"ctimeMs":1565629913163.3958,"birthtimeMs":1567519553265.4775,"atime":"2019-08-12T17:11:53.163Z","mtime":"2019-08-12T17:11:53.163Z","ctime":"2019-08-12T17:11:53.163Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:19:47,264 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js change
+2019-08-13 01:19:46,900 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":5781,"blocks":16,"atimeMs":1565630386838.592,"mtimeMs":1565630386839.3193,"ctimeMs":1565630386839.3193,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:19:46.839Z","mtime":"2019-08-12T17:19:46.839Z","ctime":"2019-08-12T17:19:46.839Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:19:47,060 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":5781,"blocks":16,"atimeMs":1565630387044.4514,"mtimeMs":1565630387048.9934,"ctimeMs":1565630387048.9934,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:19:47.044Z","mtime":"2019-08-12T17:19:47.049Z","ctime":"2019-08-12T17:19:47.049Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:45,331 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630445270.061,"mtimeMs":1565630445270.6687,"ctimeMs":1565630445270.6687,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:45.270Z","mtime":"2019-08-12T17:20:45.271Z","ctime":"2019-08-12T17:20:45.271Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:45,456 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630445445.035,"mtimeMs":1565630445445.672,"ctimeMs":1565630445445.672,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:45.445Z","mtime":"2019-08-12T17:20:45.446Z","ctime":"2019-08-12T17:20:45.446Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:45,506 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630445445.035,"mtimeMs":1565630445445.672,"ctimeMs":1565630445445.672,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:45.445Z","mtime":"2019-08-12T17:20:45.446Z","ctime":"2019-08-12T17:20:45.446Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:45,708 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js change
+2019-08-13 01:20:47,468 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js change
+2019-08-13 01:20:47,069 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630447057.5488,"mtimeMs":1565630447058.243,"ctimeMs":1565630447058.243,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:47.058Z","mtime":"2019-08-12T17:20:47.058Z","ctime":"2019-08-12T17:20:47.058Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:47,120 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630447057.5488,"mtimeMs":1565630447058.243,"ctimeMs":1565630447058.243,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:47.058Z","mtime":"2019-08-12T17:20:47.058Z","ctime":"2019-08-12T17:20:47.058Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:47,216 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630447204.0793,"mtimeMs":1565630447204.8257,"ctimeMs":1565630447204.8257,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:47.204Z","mtime":"2019-08-12T17:20:47.205Z","ctime":"2019-08-12T17:20:47.205Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:20:47,266 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630447204.0793,"mtimeMs":1565630447204.8257,"ctimeMs":1565630447204.8257,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:20:47.204Z","mtime":"2019-08-12T17:20:47.205Z","ctime":"2019-08-12T17:20:47.205Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:21:04,534 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js change
+2019-08-13 01:21:04,097 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630464036.1687,"mtimeMs":1565630464036.7947,"ctimeMs":1565630464036.7947,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:21:04.036Z","mtime":"2019-08-12T17:21:04.037Z","ctime":"2019-08-12T17:21:04.037Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:21:04,280 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630464267.0388,"mtimeMs":1565630464268.0151,"ctimeMs":1565630464268.0151,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:21:04.267Z","mtime":"2019-08-12T17:21:04.268Z","ctime":"2019-08-12T17:21:04.268Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:21:04,330 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/controller/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092306,"size":6031,"blocks":16,"atimeMs":1565630464267.0388,"mtimeMs":1565630464268.0151,"ctimeMs":1565630464268.0151,"birthtimeMs":1567519553264.5205,"atime":"2019-08-12T17:21:04.267Z","mtime":"2019-08-12T17:21:04.268Z","ctime":"2019-08-12T17:21:04.268Z","birthtime":"2019-09-03T14:05:53.265Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:24:54,295 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js change
+2019-08-13 01:24:53,980 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1277,"blocks":8,"atimeMs":1565630693916.1545,"mtimeMs":1565630693918.677,"ctimeMs":1565630693918.677,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:24:53.916Z","mtime":"2019-08-12T17:24:53.919Z","ctime":"2019-08-12T17:24:53.919Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:24:54,092 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1277,"blocks":8,"atimeMs":1565630694079.463,"mtimeMs":1565630694081.984,"ctimeMs":1565630694081.984,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:24:54.079Z","mtime":"2019-08-12T17:24:54.082Z","ctime":"2019-08-12T17:24:54.082Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:25:45,211 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js change
+2019-08-13 01:25:44,854 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1289,"blocks":8,"atimeMs":1565630744790.9814,"mtimeMs":1565630744791.6135,"ctimeMs":1565630744791.6135,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:25:44.791Z","mtime":"2019-08-12T17:25:44.792Z","ctime":"2019-08-12T17:25:44.792Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:25:44,960 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1289,"blocks":8,"atimeMs":1565630744949.5493,"mtimeMs":1565630744950.0798,"ctimeMs":1565630744950.0798,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:25:44.950Z","mtime":"2019-08-12T17:25:44.950Z","ctime":"2019-08-12T17:25:44.950Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:25:45,011 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1289,"blocks":8,"atimeMs":1565630744949.5493,"mtimeMs":1565630744950.0798,"ctimeMs":1565630744950.0798,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:25:44.950Z","mtime":"2019-08-12T17:25:44.950Z","ctime":"2019-08-12T17:25:44.950Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:26:11,350 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1294,"blocks":8,"atimeMs":1565630771285.152,"mtimeMs":1565630771289.9841,"ctimeMs":1565630771289.9841,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:26:11.285Z","mtime":"2019-08-12T17:26:11.290Z","ctime":"2019-08-12T17:26:11.290Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:26:11,463 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1294,"blocks":8,"atimeMs":1565630771452.4143,"mtimeMs":1565630771452.9207,"ctimeMs":1565630771452.9207,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:26:11.452Z","mtime":"2019-08-12T17:26:11.453Z","ctime":"2019-08-12T17:26:11.453Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:26:11,515 INFO 73811 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1294,"blocks":8,"atimeMs":1565630771452.4143,"mtimeMs":1565630771452.9207,"ctimeMs":1565630771452.9207,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:26:11.452Z","mtime":"2019-08-12T17:26:11.453Z","ctime":"2019-08-12T17:26:11.453Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:26:11,715 WARN 73811 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js change
+2019-08-13 01:26:32,426 INFO 75994 [egg:logger] init all loggers with options: {"dir":"/Users/wangyun/Desktop/work/project/meishijie-project/logs/meishijie-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meishijie-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-13 01:26:32,458 INFO 75994 [egg:core] dump config after load, 16ms
+2019-08-13 01:26:32,540 INFO 75994 [egg-watcher] Start watching: ["/Users/wangyun/Desktop/work/project/meishijie-project/app","/Users/wangyun/Desktop/work/project/meishijie-project/config","/Users/wangyun/Desktop/work/project/meishijie-project/mocks","/Users/wangyun/Desktop/work/project/meishijie-project/mocks_proxy","/Users/wangyun/Desktop/work/project/meishijie-project/app.js"]
+2019-08-13 01:26:32,540 INFO 75994 [egg-watcher] Start watching: "/Users/wangyun/Desktop/work/project/meishijie-project/app"
+2019-08-13 01:26:32,541 INFO 75994 [egg-watcher] Start watching: "/Users/wangyun/Desktop/work/project/meishijie-project/config"
+2019-08-13 01:26:32,541 INFO 75994 [egg-watcher] Start watching: "/Users/wangyun/Desktop/work/project/meishijie-project/mocks"
+2019-08-13 01:26:32,541 INFO 75994 [egg-watcher] Start watching: "/Users/wangyun/Desktop/work/project/meishijie-project/mocks_proxy"
+2019-08-13 01:26:32,541 INFO 75994 [egg-watcher] Start watching: "/Users/wangyun/Desktop/work/project/meishijie-project/app.js"
+2019-08-13 01:26:32,541 INFO 75994 [egg-watcher:agent] watcher start success
+2019-08-13 01:26:32,570 INFO 75994 [egg:core] dump config after ready, 4ms
+2019-08-13 01:27:00,277 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1281,"blocks":8,"atimeMs":1565630820210.0273,"mtimeMs":1565630820215.2546,"ctimeMs":1565630820215.2546,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:27:00.210Z","mtime":"2019-08-12T17:27:00.215Z","ctime":"2019-08-12T17:27:00.215Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:27:00,398 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1281,"blocks":8,"atimeMs":1565630820386.6719,"mtimeMs":1565630820387.3843,"ctimeMs":1565630820387.3843,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:27:00.387Z","mtime":"2019-08-12T17:27:00.387Z","ctime":"2019-08-12T17:27:00.387Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:27:00,449 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890067343,"size":1281,"blocks":8,"atimeMs":1565630820386.6719,"mtimeMs":1565630820387.3843,"ctimeMs":1565630820387.3843,"birthtimeMs":1566877123000,"atime":"2019-08-12T17:27:00.387Z","mtime":"2019-08-12T17:27:00.387Z","ctime":"2019-08-12T17:27:00.387Z","birthtime":"2019-08-27T03:38:43.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:27:00,655 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/middleware/token.js change
+2019-08-13 01:27:42,916 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:27:42,710 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1449,"blocks":8,"atimeMs":1565630862646.9463,"mtimeMs":1565630862649.639,"ctimeMs":1565630862649.639,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:27:42.647Z","mtime":"2019-08-12T17:27:42.650Z","ctime":"2019-08-12T17:27:42.650Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:03,456 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630883399.7617,"mtimeMs":1565630883401.8376,"ctimeMs":1565630883401.8376,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:03.400Z","mtime":"2019-08-12T17:28:03.402Z","ctime":"2019-08-12T17:28:03.402Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:03,603 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630883591.192,"mtimeMs":1565630883591.8948,"ctimeMs":1565630883591.8948,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:03.591Z","mtime":"2019-08-12T17:28:03.592Z","ctime":"2019-08-12T17:28:03.592Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:03,653 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630883591.192,"mtimeMs":1565630883591.8948,"ctimeMs":1565630883591.8948,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:03.591Z","mtime":"2019-08-12T17:28:03.592Z","ctime":"2019-08-12T17:28:03.592Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:03,993 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:28:03,737 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630883725.7078,"mtimeMs":1565630883726.3525,"ctimeMs":1565630883726.3525,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:03.726Z","mtime":"2019-08-12T17:28:03.726Z","ctime":"2019-08-12T17:28:03.726Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:03,787 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630883786.826,"mtimeMs":1565630883726.3525,"ctimeMs":1565630883726.3525,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:03.787Z","mtime":"2019-08-12T17:28:03.726Z","ctime":"2019-08-12T17:28:03.726Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:12,579 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:28:12,324 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630892312.397,"mtimeMs":1565630892312.9973,"ctimeMs":1565630892312.9973,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:12.312Z","mtime":"2019-08-12T17:28:12.313Z","ctime":"2019-08-12T17:28:12.313Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:28:12,375 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630892312.397,"mtimeMs":1565630892312.9973,"ctimeMs":1565630892312.9973,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:28:12.312Z","mtime":"2019-08-12T17:28:12.313Z","ctime":"2019-08-12T17:28:12.313Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:29:15,143 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:29:14,939 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1463,"blocks":8,"atimeMs":1565630954876.5417,"mtimeMs":1565630954877.3499,"ctimeMs":1565630954877.3499,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:29:14.877Z","mtime":"2019-08-12T17:29:14.877Z","ctime":"2019-08-12T17:29:14.877Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:32:24,096 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:32:23,893 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1477,"blocks":8,"atimeMs":1565631143831.4077,"mtimeMs":1565631143832.0354,"ctimeMs":1565631143832.0354,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:32:23.831Z","mtime":"2019-08-12T17:32:23.832Z","ctime":"2019-08-12T17:32:23.832Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:32:24,256 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1477,"blocks":8,"atimeMs":1565631144244.8535,"mtimeMs":1565631144245.3433,"ctimeMs":1565631144245.3433,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:32:24.245Z","mtime":"2019-08-12T17:32:24.245Z","ctime":"2019-08-12T17:32:24.245Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:32:24,306 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1477,"blocks":8,"atimeMs":1565631144244.8535,"mtimeMs":1565631144245.3433,"ctimeMs":1565631144245.3433,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:32:24.245Z","mtime":"2019-08-12T17:32:24.245Z","ctime":"2019-08-12T17:32:24.245Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:32:24,688 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 01:32:24,433 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1477,"blocks":8,"atimeMs":1565631144421.01,"mtimeMs":1565631144421.7612,"ctimeMs":1565631144421.7612,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:32:24.421Z","mtime":"2019-08-12T17:32:24.422Z","ctime":"2019-08-12T17:32:24.422Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:32:24,483 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1477,"blocks":8,"atimeMs":1565631144421.01,"mtimeMs":1565631144421.7612,"ctimeMs":1565631144421.7612,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T17:32:24.421Z","mtime":"2019-08-12T17:32:24.422Z","ctime":"2019-08-12T17:32:24.422Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:32,132 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 01:54:31,931 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3191,"blocks":8,"atimeMs":1565632471869.42,"mtimeMs":1565632471869.9893,"ctimeMs":1565632471869.9893,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:31.869Z","mtime":"2019-08-12T17:54:31.870Z","ctime":"2019-08-12T17:54:31.870Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:34,152 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3187,"blocks":8,"atimeMs":1565632474142.8633,"mtimeMs":1565632474143.5613,"ctimeMs":1565632474143.5613,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:34.143Z","mtime":"2019-08-12T17:54:34.144Z","ctime":"2019-08-12T17:54:34.144Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:34,202 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3187,"blocks":8,"atimeMs":1565632474142.8633,"mtimeMs":1565632474143.5613,"ctimeMs":1565632474143.5613,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:34.143Z","mtime":"2019-08-12T17:54:34.144Z","ctime":"2019-08-12T17:54:34.144Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:34,406 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 01:54:34,662 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 01:54:34,408 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3187,"blocks":8,"atimeMs":1565632474397.0413,"mtimeMs":1565632474397.9097,"ctimeMs":1565632474397.9097,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:34.397Z","mtime":"2019-08-12T17:54:34.398Z","ctime":"2019-08-12T17:54:34.398Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:34,459 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3187,"blocks":8,"atimeMs":1565632474397.0413,"mtimeMs":1565632474397.9097,"ctimeMs":1565632474397.9097,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:34.397Z","mtime":"2019-08-12T17:54:34.398Z","ctime":"2019-08-12T17:54:34.398Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:41,219 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632481206.6887,"mtimeMs":1565632481207.415,"ctimeMs":1565632481207.415,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:41.207Z","mtime":"2019-08-12T17:54:41.207Z","ctime":"2019-08-12T17:54:41.207Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:41,475 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 01:54:41,269 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632481206.6887,"mtimeMs":1565632481207.415,"ctimeMs":1565632481207.415,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:41.207Z","mtime":"2019-08-12T17:54:41.207Z","ctime":"2019-08-12T17:54:41.207Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:42,128 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632482117.596,"mtimeMs":1565632482118.2207,"ctimeMs":1565632482118.2207,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:42.118Z","mtime":"2019-08-12T17:54:42.118Z","ctime":"2019-08-12T17:54:42.118Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:42,179 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632482117.596,"mtimeMs":1565632482118.2207,"ctimeMs":1565632482118.2207,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:42.118Z","mtime":"2019-08-12T17:54:42.118Z","ctime":"2019-08-12T17:54:42.118Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:42,524 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 01:54:42,271 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632482260.6006,"mtimeMs":1565632482262.6775,"ctimeMs":1565632482262.6775,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:42.261Z","mtime":"2019-08-12T17:54:42.263Z","ctime":"2019-08-12T17:54:42.263Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 01:54:42,323 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565632482260.6006,"mtimeMs":1565632482262.6775,"ctimeMs":1565632482262.6775,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T17:54:42.261Z","mtime":"2019-08-12T17:54:42.263Z","ctime":"2019-08-12T17:54:42.263Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 02:11:12,159 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565633472096.801,"mtimeMs":1565633472097.5261,"ctimeMs":1565633472097.5261,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T18:11:12.097Z","mtime":"2019-08-12T18:11:12.098Z","ctime":"2019-08-12T18:11:12.098Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 02:11:12,288 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092310,"size":3171,"blocks":8,"atimeMs":1565633472272.6885,"mtimeMs":1565633472277.8853,"ctimeMs":1565633472277.8853,"birthtimeMs":1567519553266.5107,"atime":"2019-08-12T18:11:12.273Z","mtime":"2019-08-12T18:11:12.278Z","ctime":"2019-08-12T18:11:12.278Z","birthtime":"2019-09-03T14:05:53.267Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 02:11:12,493 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/service/menu.js change
+2019-08-13 05:26:32,655 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1470,"blocks":8,"atimeMs":1565645192591.4014,"mtimeMs":1565645192593.5015,"ctimeMs":1565645192593.5015,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T21:26:32.591Z","mtime":"2019-08-12T21:26:32.594Z","ctime":"2019-08-12T21:26:32.594Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 05:26:32,783 INFO 75994 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangyun/Desktop/work/project/meishijie-project/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12890092309,"size":1470,"blocks":8,"atimeMs":1565645192772.284,"mtimeMs":1565645192772.84,"ctimeMs":1565645192772.84,"birthtimeMs":1567519553265.938,"atime":"2019-08-12T21:26:32.772Z","mtime":"2019-08-12T21:26:32.773Z","ctime":"2019-08-12T21:26:32.773Z","birthtime":"2019-09-03T14:05:53.266Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-13 05:26:32,987 WARN 75994 [agent:development] reload worker because /Users/wangyun/Desktop/work/project/meishijie-project/app/router.js change
+2019-08-13 06:09:41,333 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1985752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 09:22:54,721 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 11553376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 09:40:29,002 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1034271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 13:42:22,402 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 14473388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 14:07:23,331 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 1460922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 17:16:19,705 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 11316365ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:14:14,592 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:24:28,928 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:34:44,282 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 575350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:44:42,634 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 18:54:56,972 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:05:15,328 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578334ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:15:10,696 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 575360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:25:29,050 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578351ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:35:43,424 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:45:37,777 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 19:55:52,105 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:06:06,454 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:27:06,260 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574403ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:37:00,609 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 574344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:47:18,986 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 578375ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-13 20:50:49,337 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 170341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-14 09:06:44,008 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 42474457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-14 09:34:18,919 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 494783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-15 09:26:04,004 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 85885079ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-08-15 23:23:03,483 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 50219460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-10-15 23:24:42,114 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 5270418607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2019-10-16 23:17:34,668 ERROR 75994 nodejs.ClusterClientNoResponseError: client no response in 85932550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyun/Desktop/work/project/meishijie-project/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 75994
+hostname: wangyundeMacBook-Pro.local
+
+2020-01-03 23:49:51,402 INFO 36588 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\logs\\meishijie-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meishijie-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-03 23:49:51,431 INFO 36588 [egg:core] dump config after load, 21ms
+2020-01-03 23:49:51,491 INFO 36588 [egg-watcher] Start watching: ["C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\app","C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\config","C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\mocks","C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\mocks_proxy","C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\app.js"]
+2020-01-03 23:49:51,491 INFO 36588 [egg-watcher] Start watching: "C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\app"
+2020-01-03 23:49:51,491 INFO 36588 [egg-watcher] Start watching: "C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\config"
+2020-01-03 23:49:51,491 INFO 36588 [egg-watcher] Start watching: "C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\mocks"
+2020-01-03 23:49:51,492 INFO 36588 [egg-watcher] Start watching: "C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\mocks_proxy"
+2020-01-03 23:49:51,492 INFO 36588 [egg-watcher] Start watching: "C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\app.js"
+2020-01-03 23:49:51,492 INFO 36588 [egg-watcher:agent] watcher start success
+2020-01-03 23:49:51,595 INFO 36588 [egg:core] dump config after ready, 49ms

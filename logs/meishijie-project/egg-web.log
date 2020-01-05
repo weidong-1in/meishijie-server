@@ -1,0 +1,35 @@
+2020-01-04 00:00:01,071 INFO 19704 [egg-logrotator] app logger reload: got log-reload message
+2020-01-04 00:17:34,999 INFO 33608 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\logs\\meishijie-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meishijie-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-04 00:17:35,041 INFO 33608 [egg-multipart] stream mode enable
+2020-01-04 00:17:35,576 INFO 33608 [egg-mongoose] connecting mongodb://127.0.0.1:27017/meishijie
+2020-01-04 00:17:35,703 INFO 33608 [egg-static] starting static serve /static -> C:\Users\Robin\Desktop\vueapp\meishijie-server\app\public\
+2020-01-04 00:17:35,707 INFO 33608 [egg-security] use methodnoallow middleware
+2020-01-04 00:17:35,708 INFO 33608 [egg-security] use noopen middleware
+2020-01-04 00:17:35,709 INFO 33608 [egg-security] use nosniff middleware
+2020-01-04 00:17:35,709 INFO 33608 [egg-security] use xssProtection middleware
+2020-01-04 00:17:35,710 INFO 33608 [egg-security] use xframe middleware
+2020-01-04 00:17:35,711 INFO 33608 [egg-security] use dta middleware
+2020-01-04 00:17:35,711 INFO 33608 [egg-security] compose 6 middlewares into one security middleware
+2020-01-04 00:17:35,757 INFO 33608 [egg:core] dump config after load, 33ms
+2020-01-04 00:17:35,761 INFO 33608 [egg-mongoose] starting...
+2020-01-04 00:17:35,809 INFO 33608 [egg-mongoose] mongodb://127.0.0.1:27017/meishijie connected successfully
+2020-01-04 00:17:35,819 INFO 33608 [egg-mongoose] instance[0] start successfully
+2020-01-04 00:17:35,822 INFO 33608 [egg-watcher:application] watcher start success
+2020-01-04 00:17:35,878 INFO 33608 [egg:core] dump config after ready, 50ms
+2020-01-05 22:59:11,735 INFO 66952 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Robin\\Desktop\\vueapp\\meishijie-server\\logs\\meishijie-project","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meishijie-project-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-05 22:59:11,776 INFO 66952 [egg-multipart] stream mode enable
+2020-01-05 22:59:16,470 INFO 66952 [egg-mongoose] connecting mongodb://127.0.0.1:27017/meishijie
+2020-01-05 22:59:17,197 INFO 66952 [egg-static] starting static serve /static -> C:\Users\Robin\Desktop\vueapp\meishijie-server\app\public\
+2020-01-05 22:59:17,201 INFO 66952 [egg-security] use methodnoallow middleware
+2020-01-05 22:59:17,201 INFO 66952 [egg-security] use noopen middleware
+2020-01-05 22:59:17,203 INFO 66952 [egg-security] use nosniff middleware
+2020-01-05 22:59:17,204 INFO 66952 [egg-security] use xssProtection middleware
+2020-01-05 22:59:17,204 INFO 66952 [egg-security] use xframe middleware
+2020-01-05 22:59:17,212 INFO 66952 [egg-security] use dta middleware
+2020-01-05 22:59:17,212 INFO 66952 [egg-security] compose 6 middlewares into one security middleware
+2020-01-05 22:59:17,261 INFO 66952 [egg:core] dump config after load, 37ms
+2020-01-05 22:59:17,266 INFO 66952 [egg-mongoose] starting...
+2020-01-05 22:59:17,319 INFO 66952 [egg-mongoose] mongodb://127.0.0.1:27017/meishijie connected successfully
+2020-01-05 22:59:17,330 INFO 66952 [egg-mongoose] instance[0] start successfully
+2020-01-05 22:59:17,334 INFO 66952 [egg-watcher:application] watcher start success
+2020-01-05 22:59:17,387 INFO 66952 [egg:core] dump config after ready, 47ms
